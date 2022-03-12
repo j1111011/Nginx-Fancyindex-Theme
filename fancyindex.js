@@ -256,7 +256,7 @@ for (var i = 0; i < listOfItems.length; ++i) {
     if (dte == "-") {
         dte = "";
     }
-    if (size == "" && dte == "" && lib == "Parent directory") {
+    if (size == "" && dte == "" && lib == "上一层目录") {
         icon = "arrow_back";
         color = "mdl-color--primary";
         viewGetInfo = "getinfo-novisible";
